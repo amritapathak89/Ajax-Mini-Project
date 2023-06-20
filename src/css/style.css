@@ -1,3 +1,8 @@
+body {
+  background-image: url('../../public/images/flowing-purple-mountain-spiral-bright-imagination-generated-by-ai.jpg');
+  background-size: cover;
+}
+
 #search-section {
   margin-top: 20px;
   display: flex;
@@ -8,12 +13,13 @@
 .searchBox {
   margin-right: 10px;
   border-radius: 30px;
+  height: 50px;
+  width: 200px;
 }
 
 .searchBtn {
   background-color: black;
   color: white;
-  border-radius: 15px;
 }
 
 .table-content-div {
@@ -34,19 +40,35 @@
   text-align: start;
   margin-left: 10px;
   margin-top: -11px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: xx-large;
 }
 
 .movie-year {
   margin-left: 10px;
+  color: white;
 }
 
 .movie-actors {
   margin-left: 10px;
+  color: white;
 }
 
 .movie-img {
   margin-top: 10px;
   object-fit: contain;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 500px;
+}
+
+
+footer .row {
+background:#000;
+font-family: 'Play', sans-serif;
+position: fixed;
+bottom: 0;
+color: white;
+width: 100%;
 }
