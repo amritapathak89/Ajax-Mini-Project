@@ -14,15 +14,68 @@ body {
   margin-right: 10px;
   border-radius: 30px;
   height: 50px;
-  width: 200px;
+  width: 250px;
 }
 
 .searchBtn {
   background-color: black;
   color: white;
+  width: 100px;
+}
+.movie-heading {
+  text-align: start;
+  margin-left: 10px;
+  margin-top: -11px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: xx-large;
 }
 
-.table-content-div {
+.movie-img {
+  margin-top: 10px;
+  object-fit: contain;
+  height: 300px;
+  width: 250px;
+  margin-left: 50px;
+}
+
+.movie-data {
+  margin: 10px;
+  border: 3px solid rgb(142, 126, 126);
+  height: 400px;
+  width: 350px;
+  padding: 10px;
+  margin-bottom: 70px;
+}
+.movie-year {
+  margin-left: 5px;
+  color: white;
+}
+
+.movie-actors {
+  margin-left: 5px;
+  color: white;
+}
+
+footer {
+background:#000;
+font-family: 'Play', sans-serif;
+position: fixed;
+bottom: 0;
+color: white;
+align-items: center;
+font-size:small;
+width: 100%;
+padding: 5px;
+}
+
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  .table-content-div {
   display: flex;
   justify-content: center;
   margin-top: 20px;
@@ -30,10 +83,11 @@ body {
 
 .movie-data {
   margin: 10px;
-  border: 2px solid gray;
-  height: 600px;
-  width: 600px;
+  border: 3px solid rgb(142, 126, 126);
+  height: 500px;
+  width: 500px;
   padding: 10px;
+  margin-bottom: 50px;
 }
 
 .movie-heading {
@@ -63,12 +117,15 @@ body {
   width: 500px;
 }
 
-
-footer .row {
+footer {
 background:#000;
 font-family: 'Play', sans-serif;
 position: fixed;
 bottom: 0;
 color: white;
 width: 100%;
+}
+
+
+
 }
