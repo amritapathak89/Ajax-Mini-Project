@@ -1,3 +1,49 @@
 #search-section {
   margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.searchBox {
+  margin-right: 10px;
+  border-radius: 30px;
+}
+
+.searchBtn {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
+
+.table-content-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.movie-data {
+  margin: 10px;
+  border: 2px solid gray;
+  height: 600px;
+  width: 600px;
+  padding: 10px;
+}
+
+.movie-heading {
+  text-align: start;
+  margin-left: 10px;
+  margin-top: -30px;
+}
+
+.movie-year {
+  margin-left: 10px;
+}
+
+.movie-actors {
+  margin-left: 10px;
+}
+
+.movie-img {
+  margin-top: 10px;
 }
