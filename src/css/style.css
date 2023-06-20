@@ -46,4 +46,7 @@
 
 .movie-img {
   margin-top: 10px;
+  object-fit: contain;
+  height: 200px;
+  width: 200px;
 }
